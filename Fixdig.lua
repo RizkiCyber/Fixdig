@@ -1,3 +1,4 @@
+--Edited by BeeswarmMVP sub to my yt
 for _,v in pairs(game.workspace.Collectibles:GetChildren()) do
 if string.find(v.Name,"") then
 v:Destroy()
@@ -2422,10 +2423,9 @@ Autodig.MouseButton1Down:connect(function()
       Close.Text ="+"
       AutoDig = true
       Autodig.BackgroundColor3 = red
-      while AutoDig do
-            wait(0.5)
-           
- for _,v in pairs(game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ToolCollect"):FireServer()
+      while suckingnutt == true do
+                game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ToolCollect"):FireServer()
+                wait(1)
       end
             end
             end
