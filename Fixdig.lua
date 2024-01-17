@@ -1,4 +1,4 @@
---Edited by BeeswarmMVP sub to my yt
+
 for _,v in pairs(game.workspace.Collectibles:GetChildren()) do
 if string.find(v.Name,"") then
 v:Destroy()
